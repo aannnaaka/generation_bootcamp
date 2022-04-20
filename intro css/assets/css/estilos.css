@@ -1,0 +1,39 @@
+/*Selector universal*/
+*{
+    background-color:blue;
+}
+
+
+
+/*Selector de etiqueta
+/*elemento HTML{
+}*/
+
+*.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 3px solid red
+}
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+/*:root{
+
+}
+html{
+
+}*/
+
+.color{
+    background-color: cornflowerblue;
+}
+.color{
+    background-color: blue;
+}
+.color{
+    background-color: rgb(212, 237, 100);
+}

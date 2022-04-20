@@ -1,0 +1,26 @@
+
+*{
+    background-color: darkgreen;
+}
+.tx1{
+  color:white;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tx2{
+    color:rgba(230, 215, 120, 0.936);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .tx3{
+    color:rgb(175, 131, 29);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .tx4{
+    color:rgb(218, 16, 16);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
