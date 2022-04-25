@@ -1,0 +1,8 @@
+
+/*carrusel*/
+
+.img-carrusel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+}
