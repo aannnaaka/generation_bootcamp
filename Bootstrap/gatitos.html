@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#carouselExampleControls">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Adópta</a>
+                  <a class="nav-link" href="#adopta">Adópta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Memes</a>
+                  <a class="nav-link" href="#video">Video</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Imágenes</a>
+                    <a class="nav-link" href="#imagenes">Imágenes</a>
                 </li>
               </ul>
 
@@ -41,6 +41,12 @@
       </nav>
 
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="pantalla">
+          <div class="cuadro">
+              <h1>Cats4u</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis eos commodi, a maiores accusamus tempore modi facere illo id, minima officiis accusantium sequi. Nobis magni aspernatur atque dolorum unde.</p>
+          </div>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="http://www.mundogatos.com/Uploads/mundogatos.com/ImagenesGrandes/fotos-de-gatitos-5-3.jpg" class="d-block w-100 img-carrusel" alt="...">
@@ -122,11 +128,11 @@
 
     <div id="video" class="bg-dark">
     <div class="container">
-    <div class="row">
-      <div class="col p-5">
+    <div class="row align-items-center">
+      <div class="col-md p-5">
         <iframe class="videoIframe" src="https://www.youtube.com/embed/ce0LPDPV5NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-    <div class="col text-white p-5">
+    <div class="col-md text-white p-5">
       <h2>Ver video adoptar</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium blanditiis vitae ipsa error! Impedit perferendis culpa inventore facere facilis maiores. Unde, libero dignissimos? Labore mollitia illo nobis nulla error.</p>
     </div>
@@ -136,12 +142,12 @@
       <div id="adopta" class="mt-5">
         <div class="container">
           <div class="row align-items-center">
-<div class="col">
+<div class="col-md">
 <h2>Adóptame</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident atque, dolor ipsam deserunt quae adipisci beatae soluta nihil? Natus aut sequi iure labore minus tenetur fugiat. Omnis et quaerat voluptatum!</p>
-    <button type="button" class="btn btn-dark">Saber más</button>
+    <button type="button" class="btn btn-dark mb-4">Saber más</button>
   </div>
-<div class="col bg-dark text-white p-4 rounded">
+<div class="col-md bg-dark text-white p-4 rounded">
   <form>
     <div class="form-row">
       <div class="form-group col-md-6">
@@ -192,11 +198,18 @@
           </div>
         </div>  
       </div>
+
+      <footer class="bg-dark text-white text-center mt-5">
+    <p class="m-0 p-4">Todos los derechos reservados</p>
+      </footer>
     
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
+    
+    
+  <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/javascript/scrol.js"></script>
   </body>
 </html>

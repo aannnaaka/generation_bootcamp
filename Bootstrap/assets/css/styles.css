@@ -7,6 +7,27 @@
     object-position: center;
 }
 
+.pantalla{
+    position:absolute;
+    z-index: 1;
+    width:100%;
+    height: calc(100vh - 76px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 20px;
+    color:antiquewhite;
+    width: 50vw;
+    
+}
+
 .img-card{
     width: 300px;
     height: 300px;
